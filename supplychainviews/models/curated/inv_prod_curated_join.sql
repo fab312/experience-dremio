@@ -1,0 +1,1 @@
+SELECT * FROM nessie.supplychain.raw.inventory as i INNER JOIN nessie.supplychain.raw.products as p ON i.product_id = p.product_id;
